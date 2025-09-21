@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ePortfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f4f6f9, #e6ebf5);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #004080, #0066cc);
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 70px;
+      vertical-align: middle;
+      margin: 0 15px;
+    }
+    header h1 {
+      margin: 15px 0 0;
+      font-size: 2.8em;
+      font-weight: bold;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .container {
+      width: 85%;
+      margin: auto;
+      overflow: hidden;
+      padding: 30px 0;
+    }
+    section {
+      padding: 40px 20px;
+      margin-bottom: 30px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #004080;
+      border-bottom: 3px solid #004080;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .profile img {
+      border-radius: 50%;
+      width: 130px;
+      height: 130px;
+      margin-right: 20px;
+      border: 4px solid #004080;
+    }
+    .timeline ul {
+      list-style-type: none;
+      position: relative;
+      padding-left: 40px;
+    }
+    .timeline ul::before {
+      content: '';
+      background: #004080;
+      display: inline-block;
+      position: absolute;
+      left: 20px;
+      width: 4px;
+      height: 100%;
+      border-radius: 2px;
+    }
+    .timeline li {
+      margin: 25px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+    .timeline li::before {
+      content: '\f111'; /* FontAwesome circle */
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      background: #004080;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      border-radius: 50%;
+      left: -5px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      font-size: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: linear-gradient(135deg, #004080, #0066cc);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="/images/Linkedin_Profile_Pic.jpeg" alt="Profile Picture">
+    <img src="/images/UWI_Global_Campus_logo.jpeg" alt="UWI Logo">
+    <h1>My ePortfolio</h1>
+    <nav>
+      <a href="#intro">Introduction</a>
+      <a href="#timeline">Evidence of Learning</a>
+      <a href="#future">Future Goals</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="intro">
+      <div class="profile">
+        <img src="/images/Linkedin_Profile_Pic.jpeg" alt="Profile Picture">
+        <div>
+          <h2>Section One — Introduction</h2>
+          <p><em>Caption: Foundations &amp; Purpose — My Learning Story</em></p>
+        </div>
+      </div>
+      <h3>Table of Contents</h3>
+      <ol>
+        <li>Introduction &amp; Letter to Self</li>
+        <li>Evidence of Learning (Artifacts 1–6)</li>
+        <li>Future Goals &amp; Reflections</li>
+      </ol>
+      <h3>Introduction — purpose of this ePortfolio</h3>
+      <p>This ePortfolio is a curated, living record of my learning during the OECS Advanced Digital Skills programme. It brings together the work, reflections, and plans that show how I’ve grown technically (data and analytics), professionally (communication, teamwork), and personally (time management, wellbeing). My aim is that this portfolio can be shared with mentors, hiring managers, or kept for my own reflection as I move into more advanced data roles.</p>
+      <h3>Letter to Self</h3>
+      <p>Hey Sadel —</p>
+      <p>You’ve always been the person who loves solving problems with data. That curiosity has guided your studies and your work as a Senior Data Processing Officer. Over the course of this programme you set concrete targets (like the SMART goal to earn a professional data-analyst certification and build a three-project portfolio) and started creating the roadmaps to get there. See the Personal Development Plan for the full goal and action plan.</p>
+      <p>You also made a clear mentorship plan to help you with communication, time management, and career direction — and you’ve built a realistic tracking approach (weekly journals) to keep yourself honest. That plan frames much of the growth in this portfolio.</p>
+      <p>A few things to keep close: your technical curiosity, the discipline you used to write SMART goals, and the habit of reflecting weekly. The rest — better presentations, fewer missed deadlines, and a calmer work–life balance — are on a step-by-step plan you’ve already started. Be gentle with progress, celebrate the wins, and keep asking for feedback.</p>
+      <p>— Sadel</p>
+    </section>
+
+    <section id="timeline" class="timeline">
+      <h2>Section Two — Evidence of Learning</h2>
+      <p><em>Caption: Skills in Action — Selected Artifacts &amp; Reflections</em></p>
+      <ul>
+        <li>
+          <h3>Artifact 1 — Personalised Mentorship Plan (Assignment 2)</h3>
+          <p><strong>Description:</strong> A formal mentorship plan that outlines my background, strengths and weaknesses, mentorship focus areas (communication, time management, career clarity), preferred mentorship style, and how progress will be tracked.</p>
+          <p><strong>Reflection:</strong> Writing this plan forced me to translate vague hopes into concrete supports: who I want feedback from, what I need (presentation coaching, prioritization strategies), and how to measure progress. It gave structure to mentoring conversations and reduced the “I don’t know what to ask” feeling — now every meeting has a purpose and actions. The plan also introduced small, practical habits (weekly journals, milestone check-ins) that have made mentoring far more productive.</p>
+        </li>
+        <li>
+          <h3>Artifact 2 — Personal Development Plan / SMART Goal (Assignment 1)</h3>
+          <p><strong>Description:</strong> A SMART goal to obtain a recognized Data Analyst certification, build a portfolio of three real-world projects (SQL, Excel, Tableau/Power BI), and target a mid-level/senior role with a 15% salary increase; includes an action plan and timeline.</p>
+          <p><strong>Reflection:</strong> Turning an ambition into a SMART goal changed my focus overnight — the goal’s specificity and time-bound nature forced me to plan weekly study hours, identify project ideas, and a timeline for certification and portfolio delivery. Practically, this helped me prioritize learning (e.g., finish a Power BI module this month) and made job-search decisions clearer. The PDP also highlighted real constraints (time, competing responsibilities) and helped me design mitigation strategies (time-blocking, Pomodoro).</p>
+        </li>
+        <li>
+          <h3>Artifact 3 — Stress Management Plan (Learning Activity 4.1)</h3>
+          <p><strong>Description:</strong> A 30-day SMART-style plan to reduce weekly work hours by 5 hours, protect at least one full day off, disconnect two evenings per week, and journal wellbeing to track progress.</p>
+          <p><strong>Reflection:</strong> This was a practical, values-based intervention: it reminded me that career goals mean little without health to pursue them. Committing to concrete reductions in work time and a weekly check-in made relaxation non-negotiable rather than optional. Over the trial month I noticed lower fatigue, better concentration on work hours, and improved family time — which in turn made learning sessions more productive. This artifact changed how I relate productivity to rest.</p>
+        </li>
+        <li>
+          <h3>Artifact 4 — Conflict Resolution: Missed Deadlines (Learning Activity 5.1)</h3>
+          <p><strong>Description:</strong> A role-play response and step-by-step approach for handling repeated missed deadlines between teammates (Employee A = repeatedly late; Employee B = frustrated). Includes strategy: private conversation, impact-focused language, listening, and collaborative action plan.</p>
+          <p><strong>Reflection:</strong> Practicing this scenario sharpened my approach to difficult conversations: focus on impact rather than blame, invite explanation, and co-create realistic deadlines. The role-play also emphasized proactive communication (early heads-up) and regular check-ins — techniques I applied in a recent joint project where earlier alerts prevented a cascade delay. This artifact improved my confidence to address performance friction while preserving team relationships.</p>
+        </li>
+        <li>
+          <h3>Artifact 5 — Feedback (SBI method and practical application)</h3>
+          <p><strong>Description:</strong> Explanation of the Situation–Behavior–Impact (SBI) feedback model and a drafted feedback message applying the model to late submissions in a group project (clear situation, behavior noted, impact described, constructive next steps). (Unit learning materials and examples.)</p>
+          <p><strong>Reflection:</strong> Learning and using SBI gave feedback a predictable, non-threatening structure. When I used SBI in a team setting, the person receiving feedback was less defensive because the message was specific and tied to outcomes (not personality). This has helped preserve morale and produced concrete behavior changes — e.g., teammates started sending short progress updates that made planning easier. The model also made me better at accepting feedback because it felt actionable.</p>
+        </li>
+        <li>
+          <h3>Artifact 6 — Stages of Group Development (Unit 1 learning reflection)</h3>
+          <p><strong>Description:</strong> A personal reflection applying the five stages (forming, storming, norming, performing, adjourning) to a cross-department customer-behavior reporting project, with tips learned at each stage.</p>
+          <p><strong>Reflection:</strong> Mapping a real project onto the stages helped me notice predictable pain points (storming) and plan interventions earlier (set ground rules, define roles). I learned the value of small rituals — quick check-ins, recognition of small wins — that move a group from norming to performing faster. Practically, adopting these tactics led to better timelines and higher quality dashboards in subsequent projects.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="future">
+      <h2>Section Three — Future Goals &amp; Reflections</h2>
+      <p><em>Caption: Next Benchmarks — Growth with Intention</em></p>
+      <h3>Future Goals (personal + professional)</h3>
+      <ol>
+        <li><strong>Professional (12 months):</strong> Complete a recognized Data Analyst certification, publish three portfolio projects (hosted on GitHub and presented in an online portfolio), and secure a mid-level data analyst role or an expanded responsibility within current role.</li>
+        <li><strong>Skill focus (3 months):</strong> Finish a Power BI course to improve visualization skills and present one internal knowledge-share session.</li>
+        <li><strong>Wellbeing (30 days → ongoing):</strong> Maintain reduced work hours and weekly rest rituals from the stress-management plan; journal wellbeing weekly and adjust workload where needed.</li>
+      </ol>
+      <h3>How the programme guides these goals</h3>
+      <p>The mentorship plan gave a clear structure for targeted feedback and accountability (weekly journals, milestone check-ins) — I’ll keep that. The PDP and SMART goals provide the timeline and measurable checkpoints that make progress visible (certification, portfolio pieces). The learning activities (conflict resolution, feedback models, team development) are practical toolkits I will continue to apply as I take on larger projects.</p>
+      <h3>Ongoing growth &amp; areas for improvement</h3>
+      <ul>
+        <li>Continue improving verbal presentation skills — schedule at least one practice talk per month with mentor feedback.</li>
+        <li>Strengthen time management by keeping the 3-day time log exercise as a quarterly habit to spot drift and correct it quickly.</li>
+        <li>Build a habit of capturing short “Now &amp; Next” insight notes after each project to turn tacit learning into repeatable practices.</li>
+      </ul>
+      <p>Thank you for reading this snapshot of my learning. This document captures the key evidence, reflections, and next steps that show how I’m moving deliberately from data-curiosity to data-impact.</p>
+      <p>— Sadel Pierre</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Sadel Pierre | OECS Advanced Digital Skills programme</p>
+  </footer>
+</body>
+</html>
